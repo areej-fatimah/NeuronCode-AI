@@ -64,14 +64,14 @@ Keep the explanation beginner-friendly.
 
     text = response.text
 
-score = "--"
+    score = "--"
 
-match = re.search(r'(\d+(\.\d+)?)\s*/\s*10', text)
+    match = re.search(r'(\d+(\.\d+)?)\s*/\s*10', text)
 
-if match:
-    score = match.group(1) + "/10"
+    if match:
+        score = match.group(1) + "/10"
 
     return {
-    "analysis": text,
-    "score": score
-}
+        "analysis": text,
+        "score": score
+    }
