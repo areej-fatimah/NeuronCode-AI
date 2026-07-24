@@ -12,14 +12,14 @@ It helps you:
 (Add your deployed app link here later)
 
 📸 Preview
-(Add screenshot here later)
+![NeuronCode AI](assets/home.png)
 
 🛠️ Tech Stack
 Python
 Streamlit
 Google Gemini API
 📦 Installation
-git clone <your-repo-url>
+git clone https://github.com/areej-fatimah/NeuronCode-AI.git
 cd <your-project-folder>
 pip install -r requirements.txt
 streamlit run app.py
@@ -31,4 +31,4 @@ NeuronCode-AI/
 │── requirements.txt
 │── README.md
 👩‍💻 Author
-Made with by Areej
+Made by Areej
